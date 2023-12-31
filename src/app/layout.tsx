@@ -6,8 +6,8 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Studio',
-    default: 'Studio - Award winning developer studio based in Denmark',
+    template: '%s - ThemesCraft.co',
+    default: 'ThemesCraft.co - Award winning WordPress apps developer studio',
   },
 }
 
