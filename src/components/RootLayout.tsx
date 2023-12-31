@@ -68,14 +68,15 @@ function Header({
           aria-label="Home"
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
+          className='font-bold'
         >
-          <Logomark
+          {/* <Logomark
             className="h-8 sm:hidden"
             invert={invert}
             filled={logoHovered}
-          />
+          /> */}
           <Logo
-            className="hidden h-8 sm:block"
+            className="h-8 block"
             invert={invert}
             filled={logoHovered}
           />
